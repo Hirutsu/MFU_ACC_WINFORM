@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MFU_Accounting.BLL.Interfaces\MFU_Accounting.BLL.Interfaces.csproj" />
+    <ProjectReference Include="..\MFU_Accounting.BLL\MFU_Accounting.BLL.csproj" />
+    <ProjectReference Include="..\MFU_Accounting.DAL.Interfaces\MFU_Accounting.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\MFU_Accounting.DLL\MFU_Accounting.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
